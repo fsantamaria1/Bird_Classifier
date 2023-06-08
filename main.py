@@ -8,7 +8,7 @@ from tensorflow.keras.preprocessing import image
 birds_df = pd.read_csv('data/birds.csv')
 
 # Load the trained model
-model = tf.keras.models.load_model('data/models/tuned_bird_model.h5')
+model = tf.keras.models.load_model('data/models/improved_bird_model.h5')
 
 st.title("Bird Classifier")
 st.header(":bird: :turkey: :peacock: :swan:  :owl: :duck: :flamingo: :eagle: :parrot:")
@@ -33,7 +33,7 @@ if classify_button:
 
             # Get the index of the highest predicted class
             top_index = np.argmax(predictions)
-            class_id = top_index - 1
+            class_id = top_index
             idx = birds_df[birds_df['class id'] == class_id].index.tolist()
             if idx:
                 label = birds_df.loc[idx[0], 'labels']
