@@ -24,7 +24,7 @@ To get started with the Bird Classifier application, follow these steps:
 1. Clone the repository:
 
 ```shell
-git clone https://github.com/your-username/Bird_Classifier.git
+git clone https://github.com/fsantamaria1/Bird_Classifier.git
 ```
 
 2. Navigate to the repository directory:
