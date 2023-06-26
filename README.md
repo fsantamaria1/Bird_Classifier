@@ -42,7 +42,7 @@ pip install -r requirements.txt
 4. Launch the application locally using the following command:
 
 ```shell
-streamlit run main.py
+python run.py
 ```
 
 5. Access the application by visiting `http://localhost:8501` in your web browser.
