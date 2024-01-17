@@ -4,6 +4,8 @@
 
 This repository contains a bird species classification application that allows users to upload an image of a bird and get the predicted species using a trained machine learning model. The application utilizes Streamlit, a Python library for creating interactive web apps, to provide a user-friendly graphical user interface (GUI) for the bird classification functionality.
 
+You can access the live demo of this project [here](https://fsantamaria1-bird-classifier-main-yg307u.streamlit.app/).
+
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -45,7 +47,11 @@ pip install -r requirements.txt
 python run.py
 ```
 
-5. Access the application by visiting `http://localhost:8501` in your web browser.
+5. Access the application by visiting `http://localhost:8501` in your web browser or you can access a live demo [here](https://fsantamaria1-bird-classifier-main-yg307u.streamlit.app/).
+<br>It should look like this:
+
+<a href="https://fsantamaria1-bird-classifier-main-yg307u.streamlit.app/"><img src="https://github.com/fsantamaria1/Bird_Classifier/assets/77696721/c65e2271-0869-4443-883f-5fb94177749c"> </a>
+
 
 ## Usage
 
